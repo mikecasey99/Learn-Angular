@@ -1,3 +1,12 @@
+.strikethrough {
+  text-decoration: line-through;
+  font-size: 18px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -27,11 +36,10 @@
   display: flex;
   justify-content: space-between;
   padding: 20px 25px;
-}
-
-.product .product-details {
-  display: flex;
-  align-items: center;
+  .product-details {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .product img {
@@ -72,4 +80,9 @@
 .product .price button {
   padding: 10px;
   width: 100px;
+}
+
+.discount {
+  margin-top: -15px;
+  color: #d25ca1;
 }

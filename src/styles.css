@@ -1,3 +1,7 @@
+.red {
+  color: red;
+}
+
 body {
   background-color: #fff;
   font-family: Arial, Helvetica, sans-serif;
@@ -11,11 +15,6 @@ a {
 }
 
 a.active {
-  padding-bottom: 5px;
-  border-bottom: 2px solid #d25ca1;
-}
-
-a.button.active {
   padding-bottom: 5px;
   border-bottom: 2px solid #d25ca1;
 }
